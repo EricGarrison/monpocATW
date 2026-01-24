@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "monpocATW"
+  "defaultProject": "monpocATW",
+  "cli": {
+    "analytics": false
+  }
 }
