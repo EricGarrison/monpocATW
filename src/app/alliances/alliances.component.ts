@@ -1,9 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TopNavComponent } from '../top-nav/top-nav.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-alliances',
   templateUrl: './alliances.component.html',
-  styleUrls: ['./alliances.component.css']
+  styleUrls: ['./alliances.component.css'],
+  standalone: true,
+  imports: [CommonModule, RouterModule, TopNavComponent]
 })
 export class AlliancesComponent implements OnInit {
     GuardLogo = './assets/logos/Faction-Guard.png'
