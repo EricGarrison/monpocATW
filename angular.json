@@ -19,7 +19,7 @@
           "options": {
             "baseHref": "/monpocATW/",
             "deployUrl": "/monpocATW/",
-            "outputPath": "/monpocATW/",
+            "outputPath": "dist/monpocATW",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
