@@ -3,7 +3,7 @@ services:
     name: monpocatw
     env: node
     buildCommand: npm install && npm run build
-    startCommand: npx serve -s dist/monpocATW -l 3000
+    startCommand: npx serve -s dist -l 3000
     envVars:
       - key: NODE_ENV
         value: production
