@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    {
+      "source": "!/assets/**",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/**.js",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/**.css",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/**.svg",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/**.png",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/**.jpg",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/**.jpeg",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/favicon.ico",
+      "destination": "/index.html"
+    }
+  ]
+}
